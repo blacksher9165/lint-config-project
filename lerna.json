@@ -1,7 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "npmClient": "npm",
-  "packages": ["packages/*"],
+  "packages": [
+    "packages/*"
+  ],
   "command": {
     "publish": {
       "npmClient": "npm",
