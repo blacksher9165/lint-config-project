@@ -5,11 +5,13 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
     "husky": "^9.1.7",
     "lerna": "^8.2.3",
     "markdownlint": "^0.38.0"
   },
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "prepare": "husky"
   }
 }
