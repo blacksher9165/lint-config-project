@@ -1,6 +1,6 @@
 {
   "name": "blacksher-commitlint-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "git提交规范",
   "main": "index.js",
   "keywords": [],

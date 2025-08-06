@@ -1,0 +1,9 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/blacksher9165/lint-config-project.git/': Failed to connect to github.com port 443 after 75016 ms: Couldn't connect to server
+17 error     at makeError (/Users/damengde/Desktop/project/lint-config-project/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+17 error     at module.exports.sync (/Users/damengde/Desktop/project/lint-config-project/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:186:17)
+17 error     at Object.execSync (/Users/damengde/Desktop/project/lint-config-project/node_modules/.pnpm/lerna@8.2.3_encoding@0.1.13/node_modules/lerna/dist/index.js:1758:31)
+17 error     at updateRemote (/Users/damengde/Desktop/project/lint-config-project/node_modules/.pnpm/lerna@8.2.3_encoding@0.1.13/node_modules/lerna/dist/index.js:9383:18)
+17 error     at isBehindUpstream (/Users/damengde/Desktop/project/lint-config-project/node_modules/.pnpm/lerna@8.2.3_encoding@0.1.13/node_modules/lerna/dist/index.js:9373:3)
+17 error     at VersionCommand.initialize (/Users/damengde/Desktop/project/lint-config-project/node_modules/.pnpm/lerna@8.2.3_encoding@0.1.13/node_modules/lerna/dist/index.js:9667:57)
+17 error     at VersionCommand.runCommand (/Users/damengde/Desktop/project/lint-config-project/node_modules/.pnpm/lerna@8.2.3_encoding@0.1.13/node_modules/lerna/dist/index.js:3478:36)
