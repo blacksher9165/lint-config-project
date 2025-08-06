@@ -1,0 +1,15 @@
+{
+  "name": "blacksher-markdownlint-config",
+  "version": "0.0.1",
+  "main": "index.json",
+  "description": "markdown文件规范",
+  "keywords": [
+    "markdown",
+    "lint"
+  ],
+  "author": "Minuano",
+  "license": "ISC",
+  "peerDependencies": {
+    "markdownlint": "^0.38.0"
+  }
+}

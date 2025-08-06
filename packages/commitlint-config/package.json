@@ -1,0 +1,9 @@
+{
+  "name": "blacksher-commitlint-config",
+  "version": "0.0.1",
+  "description": "git提交规范",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Minuano",
+  "license": "ISC"
+}

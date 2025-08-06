@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lerna": "^8.2.3",
+    "markdownlint": "^0.38.0"
+  },
+  "scripts": {
+    "prepare": "husky"
+  }
+}
