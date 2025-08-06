@@ -1,4 +1,4 @@
-# blacksher-markdownlint-config 123
+# blacksher-markdownlint-config
 
 > markdown 文档规范
 
