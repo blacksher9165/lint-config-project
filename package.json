@@ -22,5 +22,9 @@
     "husky": "^9.1.7",
     "lerna": "^8.2.3",
     "markdownlint": "^0.38.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
