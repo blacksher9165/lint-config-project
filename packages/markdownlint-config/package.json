@@ -1,6 +1,6 @@
 {
   "name": "blacksher-markdownlint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.json",
   "description": "markdown文件规范",
   "keywords": [
