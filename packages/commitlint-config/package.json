@@ -8,5 +8,6 @@
   "license": "ISC",
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^9.1.0"
-  }
+  },
+  "gitHead": "2ddf43152419df1bd10beb48223bc7cbaaeb0199"
 }
