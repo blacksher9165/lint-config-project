@@ -1,0 +1,1 @@
+import{_ as n,c as t,a,o as r}from"./app-BDLSbcEo.js";const o={};function l(m,e){return r(),t("div",null,e[0]||(e[0]=[a("p",null,"markdown",-1)]))}const c=n(o,[["render",l]]),i=JSON.parse('{"path":"/engineering/markdown.html","title":"","lang":"zh-CN","frontmatter":{},"git":{},"filePathRelative":"engineering/markdown.md"}');export{c as comp,i as data};

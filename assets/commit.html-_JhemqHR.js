@@ -1,0 +1,1 @@
+import{_ as e,c as n,a as o,o as a}from"./app-BDLSbcEo.js";const m={};function r(c,t){return a(),n("div",null,t[0]||(t[0]=[o("p",null,"commit",-1)]))}const l=e(m,[["render",r]]),s=JSON.parse('{"path":"/engineering/commit.html","title":"","lang":"zh-CN","frontmatter":{},"git":{},"filePathRelative":"engineering/commit.md"}');export{l as comp,s as data};

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.24" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>前端编码规范</title><meta name="description" content="前端编码规范文档">
+    <link rel="preload" href="/lint-config-project/assets/style-gDlgk8NN.css" as="style"><link rel="stylesheet" href="/lint-config-project/assets/style-gDlgk8NN.css">
+    <link rel="modulepreload" href="/lint-config-project/assets/app-BDLSbcEo.js"><link rel="modulepreload" href="/lint-config-project/assets/404.html-Djf7zR_l.js">
+    <link rel="prefetch" href="/lint-config-project/assets/index.html-CPv2Z7MS.js" as="script"><link rel="prefetch" href="/lint-config-project/assets/commit.html-_JhemqHR.js" as="script"><link rel="prefetch" href="/lint-config-project/assets/markdown.html-B2O9HNNY.js" as="script"><link rel="prefetch" href="/lint-config-project/assets/css.html-Dk0suUgd.js" as="script"><link rel="prefetch" href="/lint-config-project/assets/html.html-jUI6P3jc.js" as="script"><link rel="prefetch" href="/lint-config-project/assets/commitlint.html-BeizNx3w.js" as="script"><link rel="prefetch" href="/lint-config-project/assets/markdownlint.html-C_41wAqv.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-82baf0ab><main class="page" data-v-82baf0ab><div vp-content data-v-82baf0ab><h1 data-v-82baf0ab>404</h1><blockquote data-v-82baf0ab>There&#39;s nothing here.</blockquote><a class="route-link" href="/lint-config-project/" data-v-82baf0ab>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/lint-config-project/assets/app-BDLSbcEo.js" defer></script>
+  </body>
+</html>
